@@ -1,4 +1,7 @@
 let element = document.querySelector('main#main')
 element.remove()
 
-let newHeader = document.getElementById('h1#victory')
+const newHeader = document.createElement("h1");
+newHeader.id = "victory";
+newHeader.innerHtml = "Kameron is the champion";
+newHeader.className = "victory";
